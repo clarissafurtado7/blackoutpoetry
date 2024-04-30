@@ -1,0 +1,227 @@
+<html>
+<title>blackout poetry</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<button id="click" onclick="poem()">Click me</button>
+<br>
+<br>
+<br>
+<div id="outer">
+<div id = "demo">
+    
+
+</div>
+</div>
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<script>
+    var txt = document.getElementById("poem").innerText;
+    function poem (){
+    //document.getElementById("click").disabled = true;
+    const instance = new TypeIt("#demo", {
+     speed: 40,
+     waitUntilVisible: true,
+    })
+      instance
+        .type(" I  <span class='out'>finish, I </span> could")
+        .move(".out", { to: "END" })
+        .delete(".out", { delay: 300 })
+        .move(null, { to: "END" })
+        .type("<span class='out'> go. That was the deal.</span><br>")
+        //.break()
+        .type("The deal was you fix ")
+        .move(-4, { delay: 300 })
+        .delete(17)
+        .delete(23)
+        .pause(900)
+        .break()
+        .move(null, { to: "END" })
+        .type("<span class='out'>the road, not make</span> it", { delay: 350})
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" })
+        .type(" <span class='out'>worse.<br> Now, scrape </span>i")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .move(-1)
+        .delete(1)
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'>t off! </span>Start")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" over <span class='out'> again.<br> Hey, </span>look")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" <span class='out'>, grandpa, </span> I'm not<span class='out'> a bulldozer. I'm a racecar.<br> Oh-ho-ho-ho! Is that</span> right?")
+        .move(".out", { to: "END" })
+        .delete(20)
+        .move(-1)
+        .delete(28)
+        .move(-8)
+        .delete(13)
+        .break()
+        .move(null, { to: "END" }, { delay: 350})
+        .delete(1)
+        .type("<br><span class='out'> Then why don't we just have a little</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type(" li<span class='out'>ttle race? </span>M")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(-1)
+        .delete(1)
+        .move(null, { to: "END" })
+        .type("<span class='out'>e and you. <br> What?<br> Me and you. That</span> a joke?")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(2)
+        .move(null, { to: "END" }, { delay: 350})
+        .delete(1)
+        .type("<br>If <span class='out'> you win, you go and </span> I ")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'> fix the road. If I win, you do the road my way. <br>Doc, what're you doin'? <br>I don't mean to be rude here, but you probably go zero to sixty in, like, what? Three-point-five years? <br>Then I re</span>c")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(2)
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'>kon y</span>ou")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<span class='out'> ain't got nothin' to worry about. <br>You know what, o</span>ld-timer?")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .delete(1)
+        .move(null, { to: "END" }, { delay: 350})
+        .delete(7)
+        .type("<span class='out'> That's a wonderful idea. Let's race.</span>")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(null, { to: "END" }, { delay: 350})
+        .type("<br><span class='out'> Gentlemen, this will be a one-lap race. You will</span> drive <span class='out'> to Willy's Butte</span>, go around <span class='out'> Willy's Butte </span>and come back.")
+        .move(".out", { to: "END" })
+        .delete(".out")
+        .move(-11)
+        .delete(17)
+        .move(5)
+        .move(-12)
+        .delete(49)
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("There will be no bumpin', no cheatin', no spittin', no bitin', no road rage, no maimin', no oil slickin', no pushin', no shovin', no backstabbin', no road-hoggin', and no lollygaggin'.")
+        .delete(13, { delay: 350})
+        .move(-3)
+        .delete(18)
+        .move(-3, { delay: 350})
+        .delete(14)
+        .move(-3, { delay: 150})
+        .delete(9, { delay: 200})
+        .move(-3)
+        .delete(9)
+        .move(-3, { delay: 400})
+        .delete(14, { delay: 350})
+        .move(-3)
+        .delete(9)
+        .move(-3, { delay: 160})
+        .delete(11)
+        .move(-3, { delay: 480})
+        .delete(8, { delay: 245})
+        .move(-3)
+        .delete(10, { delay: 350})
+        .move(-3)
+        .delete(10, { delay: 300})
+        .move(-3, { delay: 350})
+        .delete(9)
+        .move(-3, { delay: 200})
+        .delete(14, { delay: 350})
+        .move(-3)
+        .move(null, { to: "END" }, { delay: 350})
+        .break()
+        .type("Speed. I am speed")
+        .go();
+        //document.getElementById("click").disabled = false;
+        //var button = document.getElementById("click");
+        //button.addEventListener("click", instance.destroy());
+        //button.addEventListener("click", function(){ document.getElementById("demo").innerHTML = "";});
+        //button.addEventListener("click", instance.freeze());
+        
+}
+
+
+</script>
+<div id="poem">
+    <span class='out'> I </span> finish, 
+    I <span class='out'> could </span> go. That was the deal. 
+    The deal was you<span class='out'> fix </span>the road,
+    not make</span><span class='out'> it </span>worse. 
+    Now, scrape <span class='out'>i</span>t off! 
+    <span class='out'> Start over </span> again.
+    Hey, <span class='out'> look</span>, grandpa, 
+    <span class='out'> I'm not</span> a bulldozer. I'm a racecar.
+    Oh-ho-ho-ho!
+    Is that<span class='out'> right?</span> Then why don't we just have a l<span class='out'>i</span>ttle race? <span class='out'>M</span>e and you.
+    What?
+    Me and you. That<span class='out'> a joke</span>?
+    <span class='out'>If </span> you win, you go and <span class='out'> I </span> fix the road. If I win, you do the road my way.
+    Doc, what're you doin'?
+    I don't mean to be rude here, but you probably go zero to sixty in, like, what? Three-point-five years?
+    Then I re<span class='out'>c</span>kon y<span class='out'>ou</span> ain't got nothin' to worry about.
+    You know what, o<span class='out'>ld</span>-timer?
+    That's a wonderful idea. Let's race.
+    [Sheriff] Gentlemen, this will be a one-lap race.
+    You will drive to Willy's Butte,
+    go around Willy's Butte and come back.
+    There will be no bumpin',
+    no cheatin', no spittin',
+    no bitin', no road rage, no maimin',
+    no oil slickin', no pushin', no shovin',
+    no backstabbin', no road-hoggin',
+    and no lollygaggin'.
+    Speed. I'm speed. Float like a Cadillac, sting like a Beemer. [Luigi laughs] My friend Guido, he dream to
+    give a real racecar a pit stop. - Peet stop! 
+    
+    </div>
+    
+<!---
+<script>
+    var i = 0;
+    var x = 0;
+    
+    var spans = document.getElementByClassName('out');
+    var speed = 100;
+    var main = document.getElementById("demo");
+    var last;
+    var text = "";
+    for (let b = 0; b < spans.length; b++) {
+        text += spans[b].innerText;
+    } 
+
+function typeWriter() {
+  if (i < txt.length) {
+    
+    if((txt.charAt(i) == text.charAt(x)) && (txt.charAt(i) != " ")){
+        var sp = document.createElement("span");
+        var textNode = document.createTextNode(txt.charAt(i));
+        sp.appendChild(textNode);
+        document.getElementById("demo").appendChild(sp);
+        x++;
+    }else{
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+    }
+    i++;
+    
+    setTimeout(typeWriter, speed);
+  }
+}
+        //document.getElementById("demo").appendChild(document.createElement('span').appendChild(document.createTextNode(txt.charAt(i))));
+    //document.getElementById("demo").appendChild(document.createElement('span').appendChild(document.createTextNode(txt.charAt(i))));
+
+</script>-->
+</html>

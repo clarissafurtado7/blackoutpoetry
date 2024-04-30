@@ -1,0 +1,175 @@
+p{
+    float: left;
+    color: black;
+    
+}
+#poem{
+    color: white;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+/*#demo{
+    position: absolute;
+    /*margin-left: -100px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 100px;}*/
+
+
+button{
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    margin-top: 100px;
+
+}
+span::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: blue;
+}
+  
+span::selection {
+    color: black;
+    background: white;
+}
+::selection {
+    color: black;
+    background: black;
+}
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: black;
+}
+
+    /*margin: 0 auto; Gives that scrolling effect as the typing happens */
+    /*letter-spacing: .17em; Adjust as needed */
+    /*animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+
+/*.poem{
+    color: black;
+    overflow: hidden;
+    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+div.containerLength > p { /* > Matches only first level children of the wrapper div 
+    width: 7.3em;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.poem p:nth-child(1) {
+    width: 7.3em;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .poem p:nth-child(2) {
+    width: 7.3em;
+    opacity: 0;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .poem p:nth-child(3) {
+    width: 7.3em;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }*/
+  /*
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid #82B533;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid #82B533;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid #82B533;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid #82B533;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }*/
